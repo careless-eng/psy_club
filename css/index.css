@@ -1,0 +1,91 @@
+.article-block
+{
+  width: 65%;
+  margin: auto;
+  border: 0.4px solid rgb(43, 43, 43);
+  border-radius: 15px;
+  background-color: #FFFAFA;
+  max-height: 100%;
+  margin-bottom: 3em;
+}
+
+.article-header
+{
+  width: 100%;
+  height: 20%;
+  border-radius: 15px 15px 0px 0px;
+  background-color: #DC143C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 10px 47px 10px 65px;
+}
+
+.article-header-title
+{
+  font: 36px "Open Sans";
+  color: white;
+  word-wrap: break-word;
+   max-width: 100%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.article-header-date
+{
+  font: 22px "Open Sans";
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.article-subheader
+{
+  max-height: 10%;
+  box-sizing: border-box;
+  padding: 24px 26px 24px 26px;
+}
+
+.article-subheader-title
+{
+  font: 24px "Open Sans";
+  font-weight: 600;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.article-text-block
+{
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 0px 15px 15px 15px;
+  margin-bottom: 15px;
+}
+
+.article-text
+{
+  max-width: 100%;
+  word-wrap: break-word;
+  font: 20px "Open Sans";
+}
+
+.articles-images
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-right: 26px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.article-image
+{
+  border-radius: 15px;
+  background-color: lightgrey;
+  width: 270px;
+  height: 166px;
+  margin: 0px 0px 32px 26px;
+}
